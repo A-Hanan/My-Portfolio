@@ -13,6 +13,7 @@ import thumbStyly from '../public/images/works/styly_eyecatch.png'
 import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
+import thumbConsultPro from '../public/images/works/consultprodash.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -23,9 +24,13 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="inkdrop" title="Inkdrop" thumbnail={thumbInkdrop}>
-            A Markdown note-taking app with 100+ plugins, cross-platform and
-            encrypted data sync support
+          <WorkGridItem
+            id="consultpro"
+            title="Consult Pro"
+            thumbnail={thumbConsultPro}
+          >
+            A Consultation and appointment booking application with a in-built
+            video-call feature.
           </WorkGridItem>
         </Section>
         <Section>
