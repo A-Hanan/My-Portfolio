@@ -14,6 +14,8 @@ import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
 import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 import thumbConsultPro from '../public/images/works/consultprodash.png'
+import thumbInvestCharts from '../public/images/works/investchartshome.png'
+import thumbAlumniSocialCorner from '../public/images/works/asclogin.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -29,28 +31,26 @@ const Works = () => (
             title="Consult Pro"
             thumbnail={thumbConsultPro}
           >
-            A Consultation and appointment booking application with a in-built
-            video-call feature.
+            Online Consultation and appointment booking application
           </WorkGridItem>
         </Section>
         <Section>
           <WorkGridItem
-            id="walknote"
-            title="walknote"
-            thumbnail={thumbWalknote}
+            id="investcharts"
+            title="Invest Charts"
+            thumbnail={thumbInvestCharts}
           >
-            Music recommendation app for iOS
+            Visualize Business and Financial Metrics
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
+            id="alumnisocialcorners"
+            title="Alumni Social Corner"
+            thumbnail={thumbAlumniSocialCorner}
           >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+            Platform for students for exchanging information and opportunities
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
