@@ -34,6 +34,16 @@ const Work = () => (
           Private (no link)
         </ListItem>
         <ListItem>
+          <Meta>Source Code</Meta>
+          <Link
+            href="https://github.com/HananCode/Family-Budgeting-Web-Application"
+            target="_blank"
+          >
+            https://github.com/HananCode/Family-Budgeting-Web-Application{' '}
+            <ExternalLinkIcon mx="2px" />
+          </Link>
+        </ListItem>
+        <ListItem>
           <Meta>Platform</Meta>
           <span>Web</span>
         </ListItem>
