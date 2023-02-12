@@ -17,6 +17,7 @@ import thumbConsultPro from '../public/images/works/consultprodash.png'
 import thumbInvestCharts from '../public/images/works/investchartshome.png'
 import thumbAlumniSocialCorner from '../public/images/works/asclogin.png'
 import thumbgoodinsurance from '../public/images/works/insuranceimage2.png'
+import thumbfambudget from '../public/images/works/fambudgetdash.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -61,6 +62,15 @@ const Works = () => (
             title="Good Insurance"
           >
             Private Application for Insurance Company. Multiple Forms
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.1}>
+          <WorkGridItem
+            id="fambudget"
+            thumbnail={thumbfambudget}
+            title="Family Budget Application"
+          >
+            Local Web Application for families to manage their monthly finances
           </WorkGridItem>
         </Section>
       </SimpleGrid>
