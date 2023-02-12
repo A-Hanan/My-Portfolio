@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        ConsultPro <Badge>2022-</Badge>
+        ConsultPro <Badge>2022</Badge>
       </Title>
       <P>
         A Consultation and Online Appointment Booking application with in-built

@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        Alumni Social Corner <Badge>2021-</Badge>
+        Alumni Social Corner <Badge>2021</Badge>
       </Title>
       <P>
         Platform for university students to ask questions exchange information
@@ -24,7 +24,10 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://sparkling-strudel-a63277.netlify.app/" target='_blank'>
+          <Link
+            href="https://sparkling-strudel-a63277.netlify.app/"
+            target="_blank"
+          >
             https://sparkling-strudel-a63277.netlify.app/{' '}
             <ExternalLinkIcon mx="2px" />
           </Link>

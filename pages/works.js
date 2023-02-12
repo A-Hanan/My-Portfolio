@@ -16,6 +16,7 @@ import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 import thumbConsultPro from '../public/images/works/consultprodash.png'
 import thumbInvestCharts from '../public/images/works/investchartshome.png'
 import thumbAlumniSocialCorner from '../public/images/works/asclogin.png'
+import thumbgoodinsurance from '../public/images/works/insuranceimage2.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -54,9 +55,12 @@ const Works = () => (
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem
+            id="goodinsurance"
+            thumbnail={thumbgoodinsurance}
+            title="Good Insurance"
+          >
+            Private Application for Insurance Company. Multiple Forms
           </WorkGridItem>
         </Section>
       </SimpleGrid>
