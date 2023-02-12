@@ -50,13 +50,13 @@ const Work = () => (
               </ListItem> */}
       </List>
 
-      <WorkImage src="/images/works/insuranceimage1.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage2.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage3.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage4.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage5.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage6.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/insuranceimage7.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/insuranceimage1.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage2.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage3.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage4.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage5.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage6.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/insuranceimage7.png" alt="investchartsimage" />
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
               <iframe
                 src="https://www.youtube.com/embed/-qBavwqc_mY"

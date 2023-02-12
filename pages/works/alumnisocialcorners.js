@@ -49,11 +49,14 @@ const Work = () => (
             </ListItem> */}
       </List>
 
-      <WorkImage src="/images/works/asclogin.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/ascinterests.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/ascquestions.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/aschostels.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/ascinternships.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/asclogin.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/ascinterests.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/ascquestions.png" alt="investchartsimage" />
+      <WorkImage src="/images/works/aschostels.png" alt="investchartsimage" />
+      <WorkImage
+        src="/images/works/ascinternships.png"
+        alt="investchartsimage"
+      />
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
             <iframe
               src="https://www.youtube.com/embed/-qBavwqc_mY"

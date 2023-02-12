@@ -42,16 +42,58 @@ const Work = () => (
         </ListItem>
         {/* <ListItem>
             <Meta>Blogpost</Meta>
-            <Link href="https://blog.inkdrop.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
+            <Link href="https://blog.investchartsImage.app/how-ive-attracted-the-first-500-paid-users-for-my-saas-that-costs-5-mo-7a5b94b8e820">
               How I’ve Attracted The First 500 Paid Users For My SaaS That Costs
               $5/mo <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem> */}
       </List>
 
-      <WorkImage src="/images/works/investchartshome.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/investchartsanalytics.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/investchartsstocks.png" alt="Inkdrop" />
+      <WorkImage
+        src="/images/works/investchartshome.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsanalytics.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsstocks.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsallstocks.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsstockprice.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsccharts.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsearnings.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartseps.png"
+        alt="investchartsImage"
+      />
+
+      <WorkImage
+        src="/images/works/investchartsrpc.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartsoec.png"
+        alt="investchartsImage"
+      />
+      <WorkImage
+        src="/images/works/investchartseps.png"
+        alt="investchartsImage"
+      />
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
             src="https://www.youtube.com/embed/-qBavwqc_mY"

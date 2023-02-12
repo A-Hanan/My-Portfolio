@@ -60,13 +60,31 @@ const Work = () => (
                 </ListItem> */}
       </List>
 
-      <WorkImage src="/images/works/fambudgetdash.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetmysql.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetaddexp.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetmonthlyexp.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetmonthlyrep.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetexp.png" alt="Inkdrop" />
-      <WorkImage src="/images/works/fambudgetgeneral.png" alt="Inkdrop" />
+      <WorkImage
+        src="/images/works/fambudgetdash.png"
+        alt="investchartsimage"
+      />
+      <WorkImage
+        src="/images/works/fambudgetmysql.png"
+        alt="investchartsimage"
+      />
+      <WorkImage
+        src="/images/works/fambudgetaddexp.png"
+        alt="investchartsimage"
+      />
+      <WorkImage
+        src="/images/works/fambudgetmonthlyexp.png"
+        alt="investchartsimage"
+      />
+      <WorkImage
+        src="/images/works/fambudgetmonthlyrep.png"
+        alt="investchartsimage"
+      />
+      <WorkImage src="/images/works/fambudgetexp.png" alt="investchartsimage" />
+      <WorkImage
+        src="/images/works/fambudgetgeneral.png"
+        alt="investchartsimage"
+      />
 
       {/* <AspectRatio maxW="640px" ratio={1.7} my={4}>
                 <iframe
