@@ -19,7 +19,6 @@ import thumbAlumniSocialCorner from '../public/images/works/asclogin.png'
 import thumbgoodinsurance from '../public/images/works/insuranceimage2.png'
 import thumbfambudget from '../public/images/works/fambudgetdash.png'
 import thumbEdge from '../public/images/works/ed1.png'
-import thumbdoc from '../public/images/works/ds1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -29,11 +28,7 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
-          <WorkGridItem id="docspawn" title="DocSpawn" thumbnail={thumbdoc}>
-            Batch generation of documents
-          </WorkGridItem>
-        </Section>
+       
         <Section>
           <WorkGridItem id="edge360" title="Edge360" thumbnail={thumbEdge}>
             CRM Software
