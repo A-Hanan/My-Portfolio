@@ -18,7 +18,7 @@ const Work = () => (
         Edge360 <Badge>2023</Badge>
       </Title>
       <P>
-        Edge360 is lite CRM software. It is a tool for use by businesses to find
+        Edge360 is lite CRM software. It is a tool to use by businesses to find
         sales leads and to keep track of their sales prospects
       </P>
       <List ml={4} my={4}>
