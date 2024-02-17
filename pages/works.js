@@ -21,6 +21,7 @@ import thumbfambudget from '../public/images/works/fambudgetdash.png'
 import thumbEdge from '../public/images/works/ed1.png'
 
 import thumbdoc from '../public/images/works/ds1.png'
+import thumbVeto from '../public/images/works/vetoapp1.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -31,6 +32,11 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
+          <WorkGridItem id="vetoApp" title="Veto App" thumbnail={thumbVeto}>
+            Clinic Management Application
+          </WorkGridItem>
+        </Section>
+        <Section>
           <WorkGridItem id="edge360" title="Edge360" thumbnail={thumbEdge}>
             CRM Software
           </WorkGridItem>
@@ -40,11 +46,7 @@ const Works = () => (
             Batch generation of documents
           </WorkGridItem>
         </Section>
-        <Section>
-          <WorkGridItem id="edge360" title="Edge360" thumbnail={thumbEdge}>
-            CRM Software
-          </WorkGridItem>
-        </Section>
+
         <Section>
           <WorkGridItem
             id="consultpro"
