@@ -15,7 +15,7 @@ const Work = () => (
   <Layout title="ASC">
     <Container>
       <Title>
-        Edge360 <Badge>2023</Badge>
+        Edge360- CRM software <Badge>2023</Badge>
       </Title>
       <P>
         Edge360 is lite CRM software. It is a tool to use by businesses to find
