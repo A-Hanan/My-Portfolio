@@ -19,7 +19,7 @@ const Work = () => (
       </Title>
       <P>
         Edge360 is lite CRM software. It is a tool for use by businesses to find
-        sales leads and to keep track of their sales prospects.
+        sales leads and to keep track of their sales prospects
       </P>
       <List ml={4} my={4}>
         <ListItem>
