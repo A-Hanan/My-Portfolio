@@ -33,7 +33,7 @@ const Main = ({ children, router }) => {
 
       <Container maxW="container.md" pt={14}>
         {/* <LazyVoxelDog /> */}
-        <div style={{ height: '200px', width: '100%' }}></div>
+        <div style={{ height: '100px', width: '100%' }}></div>
         {children}
 
         <Footer />
