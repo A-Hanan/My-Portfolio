@@ -41,11 +41,11 @@ const Works = () => (
             CRM Software
           </WorkGridItem>
         </Section>
-        <Section>
+        {/* <Section>
           <WorkGridItem id="docspawn" title="DocSpawn" thumbnail={thumbdoc}>
             Batch generation of documents
           </WorkGridItem>
-        </Section>
+        </Section> */}
 
         <Section>
           <WorkGridItem
