@@ -91,7 +91,7 @@ const Home = () => (
             {" "}
             Fiverr{" "}
           </Link>
-          and as a **Rising Talent on**{" "}
+          and as a Rising Talent on{" "}
           <Link
             as={NextLink}
             href="https://www.upwork.com/freelancers/~01beb34fe473cea9f4?mp_source=share"
@@ -103,9 +103,9 @@ const Home = () => (
             Upwork{" "}
           </Link>
           , Abdul Hanan has successfully delivered numerous projects that blend
-          clean design with robust backend logic. His passion lies in **creating
+          clean design with robust backend logic. His passion lies in creating
           data-driven, automation-ready systems** using technologies like
-          **Prisma, PostgreSQL, and AWS**, combined with modern front-end
+          Prisma, PostgreSQL, and AWS, combined with modern front-end
           frameworks and AI integrations. Known for his precision, scalability
           mindset, and innovation-driven development, Abdul Hanan continues to
           push boundaries in full-stack engineering — bridging the gap between
