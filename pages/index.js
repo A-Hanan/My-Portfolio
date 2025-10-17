@@ -33,7 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a freelance web developer based in Pakistan!
+        Hello, I&apos;m a freelance full stack web engineer based in Pakistan!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -75,9 +75,12 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          "As a student pursuing a degree in Computer Science,has already made a
-          mark in the freelance web development market since 2021. As a level
-          one seller on{' '}
+          "Abdul Hanan is a Computer Science graduate and full-stack web
+          engineer from Pakistan, with extensive experience across modern
+          frameworks such as Next.js, Nuxt.js, NestJS, and Node.js. Since 2021,
+          he has been building scalable, high-performance applications —
+          specializing in AI-powered SaaS platforms and intelligent web
+          solutions. As a Level One Seller on
           <Link
             as={NextLink}
             href="https://www.fiverr.com/hanan_developer"
@@ -85,15 +88,28 @@ const Home = () => (
             passHref
             scroll={false}
           >
-            Fiverr
-          </Link>{' '}
-          , Abdul Hanan showcases their passion for coding through their
-          numerous successful projects. With a focus on the MERN stack, Abdul
-          Hanan brings a high level of expertise and skill to every project they
-          take on. Abdul Hanan's dedication to their craft is evident in the
-          quality of their work and the positive feedback they have received
-          from satisfied clients. Abdul Hanan is truly a rising star in the web
-          development world and someone to watch in the coming years."
+            {" "}
+            Fiverr{" "}
+          </Link>
+          and as a **Rising Talent on**{" "}
+          <Link
+            as={NextLink}
+            href="https://www.upwork.com/freelancers/~01beb34fe473cea9f4?mp_source=share"
+            target="_blank"
+            passHref
+            scroll={false}
+          >
+            {" "}
+            Upwork{" "}
+          </Link>
+          , Abdul Hanan has successfully delivered numerous projects that blend
+          clean design with robust backend logic. His passion lies in **creating
+          data-driven, automation-ready systems** using technologies like
+          **Prisma, PostgreSQL, and AWS**, combined with modern front-end
+          frameworks and AI integrations. Known for his precision, scalability
+          mindset, and innovation-driven development, Abdul Hanan continues to
+          push boundaries in full-stack engineering — bridging the gap between
+          AI and real-world web applications."
         </Paragraph>
         <Box align="center" my={4}>
           <Button
